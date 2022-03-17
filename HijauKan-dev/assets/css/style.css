@@ -3,7 +3,12 @@ body {
   color: #333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -172,7 +177,8 @@ span {
 .navbar li {
   position: relative;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -184,12 +190,16 @@ span {
   transition: 0.3s;
   letter-spacing: 0;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #71c55d;
 }
 .navbar .dropdown ul {
@@ -217,7 +227,9 @@ span {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #71c55d;
 }
 .navbar .dropdown:hover > ul {
@@ -298,15 +310,19 @@ span {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #222;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #71c55d;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -329,7 +345,9 @@ span {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #71c55d;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -403,7 +421,7 @@ span {
   }
 }
 #hero img {
-  max-width: 95%;
+  max-width: 30%;
   margin-bottom: 30px;
 }
 #hero .btn-get-started {
@@ -497,14 +515,32 @@ section {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron {
-  background-image: url("../img/jumbotron-img.png");
+  background-image: url("../img/test.jpg");
   background-size: cover;
-  height:400px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.jumbotron h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Philosopher", sans-serif;
+  color: #71c55d;
+}
+
+.lead {
+  font-family: "Philosopher", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
 .jumbotron .container {
-  position:relative;
-  top:50px;
+  position: relative;
+  top: 50px;
 }
