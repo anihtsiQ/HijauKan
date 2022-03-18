@@ -324,7 +324,7 @@ section {
 Deskripsi
 -------------------------------------------------------------*/
 
-.desc {
+#desc .desc {
   text-align: center;
   justify-content: center;
   margin: 0;
