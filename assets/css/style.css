@@ -320,6 +320,20 @@ section {
   text-transform: capitalize;
 }
 
+/*-------------------------------------------------------------
+Deskripsi
+-------------------------------------------------------------*/
+
+.desc {
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 2px;
+}
+
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
